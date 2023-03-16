@@ -23,7 +23,8 @@ public class LeapYear extends CreateMenu {
         List<Integer> list = new ArrayList<>();
 
         while (!Objects.equals(minimum, maximum)) {
-            if (minimum % 4 == 0) list.add(minimum);
+            if (minimum % 4 == 0)
+                list.add(minimum);
             minimum++;
         }
         return list;
@@ -42,6 +43,8 @@ public class LeapYear extends CreateMenu {
 
     @Override
     protected String getMenuSting() {
-        return minusSeparator + "\n\t\t\t\tFunction that find leap years between two years" + minusSeparator;
+        return minusSeparator
+                + "\n\t\t\t\tFunction that find leap years between two years"
+                + minusSeparator;
     }
 }

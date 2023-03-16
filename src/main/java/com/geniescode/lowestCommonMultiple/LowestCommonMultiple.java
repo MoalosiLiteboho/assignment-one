@@ -14,7 +14,8 @@ public class LowestCommonMultiple extends CreateMenu {
 
     private Integer findTheLowestCommonMultiple(Integer numberOne, Integer numberTwo) {
         int lowestCommonMultiple = Math.max(numberOne, numberTwo);
-        while (lowestCommonMultiple % numberOne != 0 || lowestCommonMultiple % numberTwo != 0) lowestCommonMultiple++;
+        while (lowestCommonMultiple % numberOne != 0 || lowestCommonMultiple % numberTwo != 0)
+            lowestCommonMultiple++;
         return lowestCommonMultiple;
     }
 

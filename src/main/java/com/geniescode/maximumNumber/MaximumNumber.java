@@ -17,8 +17,11 @@ public class MaximumNumber extends CreateMenu {
                 .max()
                 .orElse(-1);
 
-        System.out.println("\nRESULT: \nThe maximum number if the bellow list is: " + maximumNumber +
-                "\nList: " + list);
+        System.out.println(
+                "\nRESULT: \nThe maximum number if the bellow list is: "
+                        + maximumNumber
+                        + "\nList: "
+                        + list);
     }
 
     List<Integer> getUserInput() {
@@ -39,6 +42,9 @@ public class MaximumNumber extends CreateMenu {
 
     @Override
     protected String getMenuSting() {
-        return "\n" + minusSeparator + "\n\t\t\t\t\t\tFunction that find Maximum Number" + minusSeparator;
+        return "\n"
+                + minusSeparator
+                + "\n\t\t\t\t\t\tFunction that find Maximum Number"
+                + minusSeparator;
     }
 }

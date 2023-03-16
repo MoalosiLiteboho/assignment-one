@@ -7,7 +7,7 @@ it has the following functionalities.
 * Find the lowest common multiple number between two numbers users enters.
 * Find the maximum number of all numbers the user entered that are stored in the list and user can enter as many numbers she or he likes
 * Revers the number so that the last digit is the first and the first one is the last. For instance 12345 will be 54321.
-* It has the menu that assist the user to choose what to do and choose the correct function for the operation based on the user's choice. 
+* It has the menu that assist the user to choose what to do and choose the correct function for the operation based on the user's choice, if the user choose option that is out of bond the program will prompt the user to try to choose the correct choice politely without doing calling any function. 
 * And again the menu will keep asking the user to choose the function to be done until the user decide to exit the program.
 
 ### Bellow is Screen shots of the project

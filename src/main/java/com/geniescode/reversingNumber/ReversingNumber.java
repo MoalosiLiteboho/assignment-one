@@ -32,6 +32,8 @@ public class ReversingNumber extends CreateMenu {
 
     @Override
     protected String getMenuSting() {
-        return minusSeparator + "\n\t\t\t\t\t\tFunction that reverse the Number" + minusSeparator;
+        return minusSeparator
+                + "\n\t\t\t\t\t\tFunction that reverse the Number"
+                + minusSeparator;
     }
 }
