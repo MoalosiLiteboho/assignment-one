@@ -12,5 +12,6 @@ it has the following functionalities.
 
 ### Bellow is Screen shot of the project
 #### This is the menu of the project
-![Screenshot from 2023-03-16 09-16-04.png](..%2F..%2F..%2F..%2FPictures%2FScreenshots%2FScreenshot%20from%202023-03-16%2009-16-04.png)
+![Screenshot from 2023-03-16 09-16-04](https://user-images.githubusercontent.com/112495633/225543261-cb15c62c-94be-4f5d-80dd-9d10d9076e89.png)
+
 
