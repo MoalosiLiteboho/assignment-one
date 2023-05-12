@@ -34,8 +34,7 @@ public class MaximumNumber extends CreateMenu {
 
         for (int index = 0; index < number; index++) {
             System.out.print("Enter the value: ");
-            int value = userInput.nextInt();
-            list.add(value);
+            list.add(userInput.nextInt());
         }
         return list;
     }

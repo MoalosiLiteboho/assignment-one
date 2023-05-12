@@ -14,8 +14,10 @@ public class LowestCommonMultiple extends CreateMenu {
 
     private Integer findTheLowestCommonMultiple(Integer numberOne, Integer numberTwo) {
         int lowestCommonMultiple = Math.max(numberOne, numberTwo);
+
         while (lowestCommonMultiple % numberOne != 0 || lowestCommonMultiple % numberTwo != 0)
             lowestCommonMultiple++;
+
         return lowestCommonMultiple;
     }
 
@@ -32,6 +34,8 @@ public class LowestCommonMultiple extends CreateMenu {
 
     @Override
     protected String getMenuSting() {
-        return minusSeparator + "\n\t Function that find the Lowest Common Multiple of Two Numbers(LCM)" + minusSeparator;
+        return minusSeparator
+                + "\n\t Function that find the Lowest Common Multiple of Two Numbers(LCM)"
+                + minusSeparator;
     }
 }

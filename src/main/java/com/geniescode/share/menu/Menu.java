@@ -18,18 +18,12 @@ public class Menu extends CreateMenu {
             System.out.print(getMenuSting());
             int choice = userInput.nextInt();
 
-            if (choice == 0)
-                break;
-            else if (choice == 1)
-                new MaximumNumber();
-            else if (choice == 2)
-                new LowestCommonMultiple();
-            else if (choice == 3)
-                new LeapYear();
-            else if (choice == 4)
-                new ReversingNumber();
-            else
-                System.out.println("Entered choice is INVALID \nPlease try again!");
+            if (choice == 0) break;
+            else if (choice == 1) new MaximumNumber();
+            else if (choice == 2) new LowestCommonMultiple();
+            else if (choice == 3) new LeapYear();
+            else if (choice == 4) new ReversingNumber();
+            else System.out.println("Entered choice is INVALID \nPlease try again!");
         }
         System.out.println(equalSeparator + endSeparator + equalSeparator);
     }
